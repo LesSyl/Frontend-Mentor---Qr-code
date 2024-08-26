@@ -1,0 +1,83 @@
+@use 'colors' as *;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-size: 15px;
+	font-family: 'Outfit', sans-serif;
+	background-color: $background-color;
+}
+
+.box {
+	width: 80%;
+	text-align: center;
+	background-color: $base-color;
+	border-radius: 20px;
+
+	&__img {
+		margin-top: 1em;
+		width: 90%;
+		border-radius: 20px;
+	}
+	&__text {
+		text-align: center;
+		padding: 2em;
+	
+		&-h2{
+			color: $h2-color;
+		}
+		&-p{
+			margin: 2em 1em 1.5em;
+			color: $p-color;
+		}
+	}
+}
+.attribution {
+	position: absolute;
+	bottom: 0;
+	padding: 1em;
+	font-size: 11px;
+	&__link {
+		color: $link-color;
+		text-decoration: none;
+		transition: color 0.5s;
+		&:hover {
+			color: $link-hover-color;
+		}
+	}
+}
+
+
+///////////////////// MEDIA//////////////////////////
+/// 
+
+@media (min-width: 768px){
+	.box{
+		width: 50%;
+	}
+}
+@media (min-width: 992px){
+	.box{
+		width: 40%;
+	}
+}
+@media (min-width: 1200px){
+	.box{
+		width: 30%;
+	}
+}
+@media (min-width: 1400px){
+	.box{
+		width: 20%;
+	}
+}
