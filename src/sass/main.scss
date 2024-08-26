@@ -31,13 +31,13 @@ body {
 	}
 	&__text {
 		text-align: center;
-		padding: 2em;
+		padding: 1em;
 	
 		&-h2{
 			color: $h2-color;
 		}
 		&-p{
-			margin: 2em 1em 1.5em;
+			padding: 1em 0 1em 0;
 			color: $p-color;
 		}
 	}
@@ -64,6 +64,9 @@ body {
 @media (min-width: 768px){
 	.box{
 		width: 50%;
+		&__text{
+			padding: 2em;
+		}
 	}
 }
 @media (min-width: 992px){
@@ -74,6 +77,12 @@ body {
 @media (min-width: 1200px){
 	.box{
 		width: 30%;
+		&__text{
+			padding-bottom: 3em;
+			&-p{
+				padding-top: 1.5em;
+			}
+		}
 	}
 }
 @media (min-width: 1400px){
