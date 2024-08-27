@@ -29,7 +29,6 @@ Mobile
 - Solution URL: [https://www.frontendmentor.io/solutions/challenge-qr-code-using-mobile-first-solution-sass-bem-and-flexbox-RtssM3txyY](https://www.frontendmentor.io/solutions/challenge-qr-code-using-mobile-first-solution-sass-bem-and-flexbox-RtssM3txyY)
 - Live Site URL: [https://lessyl.github.io/Qr-code/](https://lessyl.github.io/Qr-code/)
 
-https://www.frontendmentor.io/solutions/challenge-qr-code-using-mobile-first-solution-sass-bem-and-flexbox-RtssM3txyY
 
 ## My process
 
