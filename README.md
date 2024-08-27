@@ -15,13 +15,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
+Desktop
 
-![Desktop](./screenshotDESKTOP.jpeg)
-![Mobile](./screenshotMOBILE.jpeg)
+![](images/screenshotDESKTOP.jpeg)
+
+Mobile
+
+![](images/screenshotMOBILE.jpeg)
 
 ### Links
 
-- Repository URL:[](https://github.com/LesSyl/Qr-code)
+- Repository URL:[https://github.com/LesSyl/Qr-code](https://github.com/LesSyl/Qr-code)
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
@@ -29,10 +33,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Built with
 
-- sass
-- Flexbox
-- BEM
 - Mobile-first workflow
+- Sass
+- BEM
+- Flexbox
+- Kit
 
 ### What I learned
 
@@ -41,4 +46,4 @@ Above all, I learned how to use the frontendmentor. It was a project through whi
 ## Author
 
 - Frontend Mentor - [@LesSyl](https://www.frontendmentor.io/profile/LesSyl)
--gitHub - [@LesSyl](https://github.com/LesSyl)
+- gitHub - [@LesSyl](https://github.com/LesSyl)
