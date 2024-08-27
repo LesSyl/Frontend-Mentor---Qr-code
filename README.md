@@ -25,9 +25,9 @@ Mobile
 
 ### Links
 
-- Repository URL:[https://github.com/LesSyl/Qr-code](https://github.com/LesSyl/Qr-code)
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Repository URL:[https://github.com/LesSyl/Qr-code]()
+- Solution URL: [https://www.frontendmentor.io/solutions/challenge-qr-code-using-mobile-first-solution-sass-bem-and-flexbox-RtssM3txyY]()
+- Live Site URL: [https://lessyl.github.io/Qr-code/]()
 
 ## My process
 
@@ -41,7 +41,7 @@ Mobile
 
 ### What I learned
 
-Above all, I learned how to use the frontendmentor. It was a project through which I practised writing code in html and sass.
+Above all, I learned how to use the frontendmentor. It was a project through which I practised writing code in html and sass. I remembered the basic rules of code writing.
 
 ## Author
 

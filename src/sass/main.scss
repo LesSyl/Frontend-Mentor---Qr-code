@@ -5,9 +5,6 @@
 	margin: 0;
 	padding: 0;
 }
-html {
-	font-size: 62.5%;
-}
 
 body {
 	position: relative;
@@ -15,44 +12,45 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	font-size: 1rem;
+	min-height: 100vh;
+	font-size: 0.9rem;
 	font-family: 'Outfit', sans-serif;
 	background-color: $background-color;
 }
 
-.box {
-	width: 80%;
+.qr-code-box {
+	width: 75%;
 	text-align: center;
 	background-color: $base-color;
 	border: none;
-	border-radius: 20px;
+	border-radius: 15px;
 	box-shadow: 2px 5px 15px $border-color;
 
 	&__img {
 		margin-top: 1em;
 		width: 90%;
-		border-radius: 20px;
+		border-radius: 15px;
 	}
 	&__text {
 		text-align: center;
-		padding: 4em 3em;
-	
-		&-h2{
-			color: $h2-color;
+		padding: 1em;
+
+		&-heading {
+			font-size: 0.9rem;
+			color: $heading-color;
 		}
-		&-p{
-			padding: 4em 0 1em 0;
-			color: $p-color;
+		&-description {
+			padding: 1.5em 0.3em 1em;
+			color: $description-color;
 		}
 	}
 }
 .attribution {
 	position: absolute;
 	bottom: 0;
-	padding: 1.5em;
-	letter-spacing: .05em;
-	font-size: 1rem;
+	margin-bottom: 1em;
+	letter-spacing: 0.05em;
+	font-size: 0.7rem;
 	&__link {
 		font-weight: bold;
 		color: $link-color;
@@ -65,33 +63,45 @@ body {
 	}
 }
 
-
 ///////////////////// MEDIA//////////////////////////
-/// 
+///
 
-@media (min-width: 520px){
-	.box{
+@media (min-width: 375px) {
+	.qr-code-box {
+		width: 80%;
+	}
+}
+@media (min-width: 450px) {
+	.qr-code-box {
 		width: 60%;
-		}
+	}
 }
-
-@media (min-width: 768px){
-	.box{
+@media (min-width: 768px) {
+	.qr-code-box {
 		width: 40%;
+		&__text {
+			padding: 1.5em;
+			&-heading {
+				font-size: 1rem;
+			}
 		}
+	}
+	.attribution{
+		font-size: 1rem;
+	}
 }
-@media (min-width: 992px){
-	.box{
+@media (min-width: 992px) {
+	.qr-code-box {
 		width: 30%;
 	}
 }
-@media (min-width: 1200px){
-	.box{
+@media (min-width: 1200px) {
+	.qr-code-box {
 		width: 25%;
 	}
 }
-@media (min-width: 1400px){
-	.box{
-		width: 18%;
+@media (min-width: 1400px) {
+	.qr-code-box {
+		width: 22%;
 	}
 }
