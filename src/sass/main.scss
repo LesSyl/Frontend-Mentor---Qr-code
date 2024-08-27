@@ -22,7 +22,7 @@ body {
 }
 
 .box {
-	width: 70%;
+	width: 80%;
 	text-align: center;
 	background-color: $base-color;
 	border: none;
@@ -36,13 +36,13 @@ body {
 	}
 	&__text {
 		text-align: center;
-		padding: 2em;
+		padding: 4em 3em;
 	
 		&-h2{
 			color: $h2-color;
 		}
 		&-p{
-			padding: 1.5em 0 1em 0;
+			padding: 4em 0 1em 0;
 			color: $p-color;
 		}
 	}
@@ -50,11 +50,14 @@ body {
 .attribution {
 	position: absolute;
 	bottom: 0;
-	padding: 1em;
+	padding: 1.5em;
+	letter-spacing: .05em;
 	font-size: 1rem;
 	&__link {
+		font-weight: bold;
 		color: $link-color;
 		text-decoration: none;
+		cursor: pointer;
 		transition: color 0.5s;
 		&:hover {
 			color: $link-hover-color;
@@ -75,12 +78,6 @@ body {
 @media (min-width: 768px){
 	.box{
 		width: 40%;
-		&__text{
-			padding: 2.5em 3em;
-			&-p{
-				padding-top: 1.5em;
-			}
-		}
 		}
 }
 @media (min-width: 992px){
