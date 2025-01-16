@@ -25,9 +25,9 @@ Mobile
 
 ### Links
 
-- Repository URL:[https://github.com/LesSyl/Qr-code](https://github.com/LesSyl/Qr-code)
-- Solution URL: [https://www.frontendmentor.io/solutions/challenge-qr-code-using-mobile-first-solution-sass-bem-and-flexbox-RtssM3txyY](https://www.frontendmentor.io/solutions/challenge-qr-code-using-mobile-first-solution-sass-bem-and-flexbox-RtssM3txyY)
-- Live Site URL: [https://lessyl.github.io/Qr-code/]([https://lessyl.github.io/Qr-code/](https://lessyl.github.io/Frontend-Mentor---Qr-code/))
+- Repository URL:[GitHub](https://github.com/LesSyl/Qr-code)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/challenge-qr-code-using-mobile-first-solution-sass-bem-and-flexbox-RtssM3txyY)
+- Live Site URL: [Live](https://lessyl.github.io/Frontend-Mentor---Qr-code/)
 
 
 ## My process
